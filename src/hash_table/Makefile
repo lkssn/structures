@@ -7,4 +7,4 @@ clean:
 	rm hash_table.o
 
 hash_table.o: hash_table.c hash_table.h
-	gcc $(FLAGS) -c hash_table.c hash_table.h -o hash_table.o
+	gcc $(FLAGS) -c hash_table.c -o hash_table.o
